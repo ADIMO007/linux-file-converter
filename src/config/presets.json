@@ -1,0 +1,78 @@
+{
+  "audio": {
+    "mp3": {
+      "codec": "libmp3lame",
+      "bitrate": "192k",
+      "sample_rate": 44100,
+      "extension": "mp3"
+    },
+    "flac": {
+      "codec": "flac",
+      "bitrate": null,
+      "sample_rate": 44100,
+      "extension": "flac"
+    },
+    "wav": {
+      "codec": "pcm_s16le",
+      "bitrate": null,
+      "sample_rate": 44100,
+      "extension": "wav"
+    },
+    "ogg": {
+      "codec": "libvorbis",
+      "bitrate": "192k",
+      "sample_rate": 44100,
+      "extension": "ogg"
+    },
+    "aac": {
+      "codec": "aac",
+      "bitrate": "192k",
+      "sample_rate": 44100,
+      "extension": "m4a"
+    }
+  },
+  "video": {
+    "mp4": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 23,
+      "extension": "mp4"
+    },
+    "webm": {
+      "codec": "libvpx-vp9",
+      "preset": "medium",
+      "crf": 30,
+      "extension": "webm"
+    },
+    "mkv": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 23,
+      "extension": "mkv"
+    },
+    "avi": {
+      "codec": "mpeg4",
+      "preset": "medium",
+      "q:v": 5,
+      "extension": "avi"
+    }
+  },
+  "image": {
+    "jpg": {
+      "quality": 85,
+      "extension": "jpg"
+    },
+    "png": {
+      "compression": 9,
+      "extension": "png"
+    },
+    "webp": {
+      "quality": 80,
+      "extension": "webp"
+    },
+    "avif": {
+      "quality": 75,
+      "extension": "avif"
+    }
+  }
+}
